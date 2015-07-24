@@ -20,7 +20,7 @@
             <div class="panel-body">
                 <ul>
                     {% for page in site.collections.features.docs %}
-                    <li><a href="{{ page.url }}">{{ page.feature.name }}</a></li>
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.feature.name }}</a></li>
                     {% endfor %}
                 </ul>
             </div>

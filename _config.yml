@@ -1,6 +1,8 @@
 name: "Editor Recommendation"
 description: "The Editor Recommendation Project by the CKEditor Team"
 
+baseurl: "/test-erfc"
+
 collections:
   features:
     output: true
