@@ -1,0 +1,19 @@
+name: "Editor Recommendation"
+description: "The Editor Recommendation Project by the CKEditor Team"
+
+collections:
+  features:
+    output: true
+
+exclude: [ "Gemfile", "README.md" ]
+
+# GitHub defaults.
+highlighter: pygments
+
+# GitHub enforced options (non overridable).
+safe: true
+lsi: false
+
+# Enable Github Flavored Markdown.
+kramdown:
+  input: GFM

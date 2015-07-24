@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-10">
+        <h1>{{ page.feature.name }}</h1>
+
+        {{ description }}
+
+        {% if notes %}
+
+        <h2>Notes</h2>
+
+        {{ notes }}
+
+        {% endif %}
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Features</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    {% for page in site.collections.features.docs %}
+                    <li><a href="{{ page.url }}">{{ page.feature.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+

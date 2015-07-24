@@ -1,0 +1,4 @@
+# All "dot directories".
+.*/**
+
+_site/**
