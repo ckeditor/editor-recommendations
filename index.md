@@ -3,9 +3,7 @@ title: Home
 layout: default
 ---
 
-# The Editor Recommendation Project
-
-This is a website made with Jekyll.
+{% include home-jumbotron.html %}
 
 ## Editing Features
 
