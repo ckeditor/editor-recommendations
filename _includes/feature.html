@@ -2,13 +2,13 @@
     <div class="col-md-10">
         <h1>{{ page.feature.name }}</h1>
 
-        {{ description }}
+        {{ description | markdownify }}
 
         {% if notes %}
 
         <h2>Notes</h2>
 
-        {{ notes }}
+        {{ notes | markdownify }}
 
         {% endif %}
     </div>
