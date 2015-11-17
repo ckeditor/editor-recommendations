@@ -3,6 +3,6 @@ title: About
 layout: default
 ---
 
-# About The Editor Recommendation Project
+# About The Editor Recommendations Project
 
 This is a project.
