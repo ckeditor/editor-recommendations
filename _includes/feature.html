@@ -17,15 +17,15 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Features</h3>
             </div>
-            <div class="panel-body">
-                <ul>
-                    {% for page in site.collections.features.docs %}
-                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.feature.name }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
+            <ul class="list-group">
+                {% for featurePage in site.collections.features.docs %}
+                    {% assign className = 'list-group-item' %}
+                    {% if featurePage.feature.name == page.feature.name %}
+                        {% assign className = 'list-group-item active' %}
+                    {% endif %}
+                    <a href="{{ site.baseurl }}{{ featurePage.url }}" class="{{ className }}">{{ featurePage.feature.name }}</a>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </div>
-
-
