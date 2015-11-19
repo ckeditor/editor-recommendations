@@ -9,11 +9,9 @@ layout: default
 
 ## Use Cases
 
-### [Blog / Article]()
-
-### [Article Comments]()
-
-### [Rich-Text Fields]()
+{% for page in site.collections["use-cases"].docs %}
+### [{{ page.case.title }}]({{ site.baseurl }}{{ page.url }})
+{% endfor %}
 
 {% endcapture %}
 

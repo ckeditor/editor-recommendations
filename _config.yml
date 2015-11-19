@@ -6,6 +6,8 @@ baseurl: "/test-erfc"
 collections:
   features:
     output: true
+  use-cases:
+    output: true
   usability:
     output: true
 
