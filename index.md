@@ -38,10 +38,10 @@ layout: default
 
 <div class="row">
   <div class="col-md-6">
-    {{ usecases | markdownify }}
-    {{ usability | markdownify }}
+    {{ features | markdownify }}
   </div>
   <div class="col-md-6">
-    {{ features | markdownify }}
+    {{ usecases | markdownify }}
+    {{ usability | markdownify }}
   </div>
 </div>
