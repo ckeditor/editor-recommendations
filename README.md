@@ -1,20 +1,10 @@
+# The Editor Recommendations Project
 
-## Installing Jekyll
+This project aims to solve a few problems currently faced by both editor developers and implementers which are decided
+to go with editing into their systems.
 
-Follow the intructions at GitHub:
-https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll
+Check to the project website for further details:
+http://ckeditor.github.io/editor-recommendations/
 
-To update Jekyll:
-
-```
-bundle update
-```
-
-
-## Run Jekyll Server Locally
-
-```
-bundle exec jekyll serve
-```
-
-The website should be then server at http://0.0.0.0:4000/.
+Although the project has been bootstrapped by the CKEditor team and it will help driving the CKEditor 5 development, it
+is being run in a editor-neutral way and can certainly benefit other projects as well.
