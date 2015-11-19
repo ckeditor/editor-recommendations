@@ -6,6 +6,8 @@ baseurl: "/test-erfc"
 collections:
   features:
     output: true
+  usability:
+    output: true
 
 exclude: [ "Gemfile", "README.md" ]
 

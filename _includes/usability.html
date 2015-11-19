@@ -1,0 +1,25 @@
+<div class="page-header">
+    <h1>{{ page.usability.title }} <small> // usability {{ page.usability.status | downcase }}</small></h1>
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        {{ body | markdownify }}
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Usability</h3>
+            </div>
+            <ul class="list-group">
+                {% for usabilityPage in site.collections.usability.docs %}
+                    {% assign className = 'list-group-item' %}
+                    {% if usabilityPage.usability.title == page.usability.title %}
+                        {% assign className = 'list-group-item active' %}
+                    {% endif %}
+                    <a href="{{ site.baseurl }}{{ usabilityPage.url }}" class="{{ className }}">{{ usabilityPage.usability.title }}</a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -21,9 +21,9 @@ layout: default
 
 ## Usability
 
-### [Enter Key]()
-
-### [Smart Typing]()
+{% for page in site.collections.usability.docs %}
+### [{{ page.usability.title }}]({{ site.baseurl }}{{ page.url }})
+{% endfor %}
 
 {% endcapture %}
 
