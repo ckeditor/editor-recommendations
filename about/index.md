@@ -3,7 +3,9 @@ title: About
 layout: default
 ---
 
-# About The Editor Recommendations Project
+<div class="page-header">
+	<h1>About The Editor Recommendations Project</h1>
+</div>
 
 This project aims to solve a few problems currently faced by both editor developers and implementers which are decided to go with editing into their systems.
 
