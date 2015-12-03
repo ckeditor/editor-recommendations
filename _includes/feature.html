@@ -22,11 +22,35 @@
 
         {% endif %}
 
+        {% if misconceptions %}
+
+        <h2>Common Misconceptions</h2>
+
+        {{ misconceptions | markdownify }}
+
+        {% endif %}
+
+        {% if implementation %}
+
+        <h2>Implementation Concerns</h2>
+
+        {{ implementation | markdownify }}
+
+        {% endif %}
+
         {% if notes %}
 
         <h2>Notes</h2>
 
         {{ notes | markdownify }}
+
+        {% endif %}
+
+        {% if references %}
+
+        <h2>References</h2>
+
+        {{ references | markdownify }}
 
         {% endif %}
     </div>
