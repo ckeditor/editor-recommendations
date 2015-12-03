@@ -6,7 +6,7 @@ usability:
 layout: default
 ---
 
-{% capture body %}
+{% capture description %}
 
 TODO: Describe how the <kbd>Tab</kbd> key should behave.
 

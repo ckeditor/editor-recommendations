@@ -6,7 +6,7 @@ usability:
 layout: default
 ---
 
-{% capture body %}
+{% capture description %}
 
 TODO: Describe how the <kbd>Enter</kbd> key should behave.
 
