@@ -2,6 +2,7 @@
 feature:
   name: "Italic"
   status: "Draft"
+  discussion: "https://github.com/ckeditor/editor-recommendations/issues/2"
 
 layout: default
 ---

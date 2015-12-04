@@ -1,5 +1,12 @@
 <div class="page-header">
-    <h1>{{ page.case.title }} <span class="small"> // use case {{ page.case.status | downcase }}</span></h1>
+    <h1>{{ page.case.title }} 
+        <span class="small"> // use case {{ page.case.status | downcase }} 
+            <a href="{{ page.case.discussion }}" title="Public discussion">
+                <i class="glyphicon glyphicon-bullhorn" aria-hidden="true"></i>
+                <span class="sr-only">Public discussion</span>
+            </a>
+        </span>
+    </h1>
 </div>
 
 <div class="row">

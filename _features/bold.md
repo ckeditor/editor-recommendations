@@ -2,6 +2,7 @@
 feature:
   name: "Bold"
   status: "Draft"
+  discussion: "https://github.com/ckeditor/editor-recommendations/issues/1"
 
 layout: default
 ---
@@ -14,8 +15,8 @@ The **Bold** feature marks part of the text with strong importance.
 
 {% capture ui %}
 
- * UI: switch button with "**B**" icon
- * Title: "Strong Importance"
+ * UI: ON/OFF feature, usually represented as switch button with "**B**" icon
+ * Title: "Important" or Strong Importance"
  * Keystroke: <kbd>CTRL+B</kbd>
 
 {% endcapture %}
