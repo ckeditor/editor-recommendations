@@ -18,7 +18,7 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Usability</h3>
             </div>
-            <ul class="list-group">
+            <div class="list-group">
                 {% for usabilityPage in site.collections.usability.docs %}
                     {% assign className = 'list-group-item' %}
                     {% if usabilityPage.usability.title == page.usability.title %}
@@ -26,7 +26,7 @@
                     {% endif %}
                     <a href="{{ site.baseurl }}{{ usabilityPage.url }}" class="{{ className }}">{{ usabilityPage.usability.title }}</a>
                 {% endfor %}
-            </ul>
+            </div>
         </div>
     </div>
 </div>

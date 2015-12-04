@@ -18,7 +18,7 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Use Cases</h3>
             </div>
-            <ul class="list-group">
+            <div class="list-group">
                 {% for casePage in site.collections["use-cases"].docs %}
                     {% assign className = 'list-group-item' %}
                     {% if casePage.case.title == page.case.title %}
@@ -26,7 +26,7 @@
                     {% endif %}
                     <a href="{{ site.baseurl }}{{ casePage.url }}" class="{{ className }}">{{ casePage.case.title }}</a>
                 {% endfor %}
-            </ul>
+            </div>
         </div>
     </div>
 </div>
