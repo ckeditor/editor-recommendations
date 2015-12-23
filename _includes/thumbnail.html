@@ -1,0 +1,10 @@
+<figure class="thumbnail">
+	{% if include.full %}
+	<a href="{{ include.full }}" title="Click to open image in full size">
+	{% endif %}
+		<img src="{{ include.src }}" alt="{{ include.alt }}" class="img-responsive">
+	{% if include.full %}
+	</a>
+	{% endif %}
+	<figcaption class="caption">{{ include.caption }}</figcaption>
+</figure>
