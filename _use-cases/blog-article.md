@@ -2,6 +2,7 @@
 case:
   title: "Blog/Article"
   status: "Draft"
+  discussion: "https://github.com/ckeditor/editor-recommendations/issues/9"
 
 layout: default
 ---
