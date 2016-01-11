@@ -11,7 +11,53 @@
 
 <div class="row">
     <div class="col-md-10">
+        {% if description %}
+
         {{ description | markdownify }}
+
+        {% endif %}
+
+        <h2>Functionality</h2>
+        
+        {% if features %}
+
+        <h3>Features</h3>
+
+        {{ features | markdownify }}
+
+        {% endif %}
+        
+        {% if usability %}
+
+        <h3>Usability Features</h3>
+
+        {{ usability | markdownify }}
+
+        {% endif %}
+        
+        {% if notes %}
+
+        <h2>Notes</h2>
+
+        {{ notes | markdownify }}
+
+        {% endif %}
+
+        {% if images %}
+
+        <h2>Sources of images</h2>
+
+        {{ images | markdownify }}
+
+        {% endif %}
+
+        {% if references %}
+
+        <h2>References</h2>
+
+        {{ references | markdownify }}
+
+        {% endif %}
     </div>
     <div class="col-md-2">
         <div class="panel panel-default">

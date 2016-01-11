@@ -1,8 +1,8 @@
 <figure class="thumbnail">
 	{% if include.full %}
-	<a href="{{ include.full }}" title="Click to open image in full size">
+	<a href="{{ site.baseurl }}/images/{{ include.full }}" title="Click to open image in full size">
 	{% endif %}
-		<img src="{{ include.src }}" alt="{{ include.alt }}" class="img-responsive">
+		<img src="{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" class="img-responsive">
 	{% if include.full %}
 	</a>
 	{% endif %}
