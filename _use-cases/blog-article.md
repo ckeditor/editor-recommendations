@@ -22,7 +22,7 @@ Although not oficially specified, that format follows some strict conventions, w
 * [Bold]({{ site.baseurl }}/features/bold.html)
 * [Italic]({{ site.baseurl }}/features/italic.html)
 * [Strikethrough]({{ site.baseurl }}/features/strikethrough.html)
-* Image
+* [Image]({{ site.baseurl }}/features/image.html)
 * Quote
 * List
 
