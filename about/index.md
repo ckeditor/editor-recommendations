@@ -37,4 +37,4 @@ The project is extensively discussed at the [official Editor Recommendations rep
 
 ## License
 
-The contents of the project are Copyright (c) 2015 CKSource Frederico Knabben and are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+The contents of the project are Copyright © 2015-{{ site.time | date: '%Y' }} CKSource Frederico Knabben and are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
