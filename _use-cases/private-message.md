@@ -8,7 +8,7 @@ layout: default
 ---
 
 {% capture description %}
-This use case includes instant messages, e-mails and posts on online forums addressed to one or more recipients. Such messages usually follow the common letter writing conventions [[1](#ref1)]- they start with opening salutations (<i>Dear John</i>, <i>Hello</i>, etc.) and finish with complimentary closing (<i>Best regards</i>, <i>Best wishes</i>, etc.) and the signature of the author.
+This use case includes instant messages, e-mails and posts on online forums addressed to one or more recipients. Such messages usually follow the common letter writing conventions <sup>[[1](#ref1)]</sup>- they start with opening salutations (<i>Dear John</i>, <i>Hello</i>, etc.) and finish with complimentary closing (<i>Best regards</i>, <i>Best wishes</i>, etc.) and the signature of the author.
 
 
 {% endcapture %}
@@ -23,13 +23,12 @@ This use case includes instant messages, e-mails and posts on online forums addr
 * [Image]({{ site.baseurl }}/features/image.html)
 * Quote
 * List
+* [Emoticons/emojis]
 
 
 {% endcapture %}
 
 {% capture usability %}
-
-* [Emoticons/emojis]({{ site.baseurl }}/usability/enter.html#auto-paragraphing)
 
 {% endcapture %}
 
