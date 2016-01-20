@@ -23,7 +23,7 @@ This use case includes instant messages, e-mails and posts on online forums addr
 * [Image]({{ site.baseurl }}/features/image.html)
 * Quote
 * List
-* [Emoticons/emojis]
+* Emoticons/emojis
 
 
 {% endcapture %}
