@@ -41,7 +41,7 @@ This page is about the <strong>Bold</strong> feature.
 
 {% capture notes %}
 
-Although this feature SHOULD be called "Important" or "Strong Importance", for historical reasons users are used to the
+Although this feature should be called "Important" or "Strong Importance", for historical reasons users are used to the
 "Bold" name. Therefore, for the benefit of learnability, this feature SHOULD be generally referenced as **Bold**.
 
 {% endcapture %}

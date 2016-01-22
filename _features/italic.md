@@ -41,7 +41,7 @@ The Italic feature is also known as <em>Emphatic Stress</em>.
 
 {% capture notes %}
 
-Although this feature SHOULD be called "Emphatic Stress", for historical reasons users are used to the "Italic" name.
+Although this feature should be called "Emphatic Stress", for historical reasons users are used to the "Italic" name.
 Therefore, for the benefit of learnability, this feature SHOULD be generally referenced as **Italic**.
 
 {% endcapture %}
