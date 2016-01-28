@@ -15,7 +15,7 @@ The **Image** feature provides user the ability to link some parts of content to
 
 {% capture ui %}
 
- * UI: feature providing user a way to set up properties for the new image, usually represented as button with "<i class="glyphicon glyphicon-picture" aria-label="Image" title="Image"></i>" icon that opens dialog containing form fields to edit image's properties
+ * UI: feature providing user a way to set up properties for the new image, usually represented as button with "<i class="fa fa-image" aria-label="Image" title="Image"></i>" icon that opens dialog containing form fields to edit image's properties
  * Title: "Image"
  * Keystroke: –
 
