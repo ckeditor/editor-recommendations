@@ -24,7 +24,8 @@ Although not oficially specified, that format follows some strict conventions, w
 * [Strikethrough]({{ site.baseurl }}/features/strikethrough.html)
 * [Image]({{ site.baseurl }}/features/image.html)
 * Quote
-* List
+* [Bulleted List]({{ site.baseurl }}/features/bulleted-list.html)
+* [Numbered List]({{ site.baseurl }}/features/numbered-list.html)
 
 
 {% endcapture %}

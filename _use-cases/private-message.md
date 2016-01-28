@@ -22,8 +22,9 @@ This use case includes instant messages, e-mails and posts on online forums addr
 * [Strikethrough]({{ site.baseurl }}/features/strikethrough.html)
 * [Image]({{ site.baseurl }}/features/image.html)
 * Quote
-* List
-* Emoticons/emojis
+* [Bulleted List]({{ site.baseurl }}/features/bulleted-list.html)
+* [Numbered List]({{ site.baseurl }}/features/numbered-list.html)
+* Emoticons/Emojis
 
 
 {% endcapture %}
