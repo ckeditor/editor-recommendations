@@ -19,6 +19,7 @@ highlighter: pygments
 # GitHub enforced options (non overridable).
 safe: true
 lsi: false
+excerpt_separator: ""
 
 # Enable Github Flavored Markdown.
 kramdown:
