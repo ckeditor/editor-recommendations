@@ -67,7 +67,7 @@
                 <h3 class="panel-title">Features</h3>
             </div>
             <div class="list-group">
-                {% for featurePage in site.collections.features.docs %}
+                {% for featurePage in site.features %}
                     {% assign className = 'list-group-item' %}
                     {% if featurePage.feature.name == page.feature.name %}
                         {% assign className = 'list-group-item active' %}
