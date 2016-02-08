@@ -1,6 +1,16 @@
 .navbar:not(.navbar-fixed-top){
   margin-bottom: 0;
 }
+* {
+  line-height: 1.8;
+}
+
+body .navbar *,
+body footer *
+{
+  /* Reset line-height for navbar and footer */
+  line-height: 1.42857143;
+}
 
 /* Sticky footer */
 html {
