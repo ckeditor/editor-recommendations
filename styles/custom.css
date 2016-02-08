@@ -11,6 +11,10 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+body > .container {
+  /* Push footer 20px from content */
+  margin-bottom: 80px;
+}
 .footer {
   background: #222;
   color: #9d9d9d;
