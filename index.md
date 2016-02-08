@@ -9,7 +9,7 @@ layout: default
 
 ## Use Cases
 
-{% for page in site.collections["use-cases"].docs %}
+{% for page in site["use-cases"] %}
 ### [{{ page.case.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
@@ -19,7 +19,7 @@ layout: default
 
 ## Usability
 
-{% for page in site.collections.usability.docs %}
+{% for page in site.usability %}
 ### [{{ page.usability.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
@@ -29,7 +29,7 @@ layout: default
 
 ## Editing Features
 
-{% for page in site.collections.features.docs %}
+{% for page in site.features %}
 ### [{{ page.feature.name }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 

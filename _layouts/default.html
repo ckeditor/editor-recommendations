@@ -46,7 +46,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        {% for page in site.collections.features.docs %}
+                        {% for page in site.features %}
                         <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.feature.name }}</a></li>
                         {% endfor %}
                     </ul>
@@ -54,7 +54,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Use Cases <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        {% for page in site.collections["use-cases"].docs %}
+                        {% for page in site["use-cases"] %}
                         <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.case.title }}</a></li>
                         {% endfor %}
                     </ul>
@@ -62,7 +62,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usability <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        {% for page in site.collections.usability.docs %}
+                        {% for page in site.usability %}
                         <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.usability.title }}</a></li>
                         {% endfor %}
                     </ul>
