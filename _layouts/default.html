@@ -33,6 +33,12 @@
 <nav class="navbar navbar-inverse">
     <div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">Editor Recommendations (Home)</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -64,11 +70,14 @@
                 <li><a href="{{ site.baseurl }}/general-policies">General Policies</a></li>
                 <li><a href="{{ site.baseurl }}/about">About</a></li>
             </ul>
-            <p class="navbar-text navbar-right"><a href="https://github.com/fredck/test-erfc" class="navbar-link">Source on GitHub</a></p>
+            <p class="navbar-text navbar-right"><a href="https://github.com/ckeditor/editor-recommendations/" class="navbar-link">Source on GitHub</a></p>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
 
+{% if page.jumbotron %}
+    {% include home-jumbotron.html %}
+{% endif %}
 
 <div class="container">
 

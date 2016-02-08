@@ -8,3 +8,6 @@
 .footer a {
   color: #fff;
 }
+.navbar:not(.navbar-fixed-top){
+  margin-bottom: 0;
+}

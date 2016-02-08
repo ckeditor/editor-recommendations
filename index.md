@@ -1,9 +1,8 @@
 ---
 title: Home
 layout: default
+jumbotron: true
 ---
-
-{% include home-jumbotron.html %}
 
 {% capture usecases %}
 
