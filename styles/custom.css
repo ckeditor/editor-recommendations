@@ -1,7 +1,7 @@
 .navbar:not(.navbar-fixed-top){
   margin-bottom: 0;
 }
-* {
+body {
   line-height: 1.8;
 }
 
