@@ -42,3 +42,6 @@ body > .container {
 .footer a {
   color: #fff;
 }
+.navbar {
+  border-radius: 0;
+}
