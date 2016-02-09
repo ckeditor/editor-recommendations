@@ -6,9 +6,7 @@ jumbotron: true
 
 {% capture usecases %}
 
-## Use Cases
-
-{% for page in site.collections["use-cases"].docs %}
+{% for page in site["use-cases"] %}
 ### [{{ page.case.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
@@ -16,9 +14,7 @@ jumbotron: true
 
 {% capture usability %}
 
-## Usability
-
-{% for page in site.collections.usability.docs %}
+{% for page in site.usability %}
 ### [{{ page.usability.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
@@ -26,9 +22,7 @@ jumbotron: true
 
 {% capture features %}
 
-## Editing Features
-
-{% for page in site.collections.features.docs %}
+{% for page in site.features %}
 ### [{{ page.feature.name }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
@@ -37,10 +31,13 @@ jumbotron: true
 
 <div class="row">
   <div class="col-md-6">
+    <h2 class="page-header">Editing Features</h2>
     {{ features | markdownify }}
   </div>
   <div class="col-md-6">
+    <h2 class="page-header">Use Cases</h2>
     {{ usecases | markdownify }}
+    <h2 class="page-header">Usability</h2>
     {{ usability | markdownify }}
   </div>
 </div>
