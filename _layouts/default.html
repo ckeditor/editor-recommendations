@@ -33,38 +33,88 @@
 <nav class="navbar navbar-inverse">
     <div class="container">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">Editor Recommendations (Home)</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="dropdown">
+                {% assign className = 'dropdown' %}
+                {% assign pageParts = page.url | split: '/' %}
+                {% for part in pageParts %}
+                    {% if part == 'features' %}
+                        {% assign className = 'dropdown active' %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+                <li class="{{ className }}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        {% for page in site.collections.features.docs %}
-                        <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.feature.name }}</a></li>
+                        {% for item in site.features %}
+                            {% assign className = '' %}
+                            {% if page.url == item.url %}
+                                {% assign className = 'active' %}
+                            {% endif %}
+                            <li class="{{ className }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.feature.name }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
-                <li class="dropdown">
+                {% assign className = 'dropdown' %}
+                {% for part in pageParts %}
+                    {% if part == 'use-cases' %}
+                        {% assign className = 'dropdown active' %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+                <li class="{{ className }}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Use Cases <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        {% for page in site.collections["use-cases"].docs %}
-                        <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.case.title }}</a></li>
+                        {% for item in site["use-cases"] %}
+                            {% assign className = '' %}
+                            {% if page.url == item.url %}
+                                {% assign className = 'active' %}
+                            {% endif %}
+                            <li class="{{ className }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.case.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
-                <li class="dropdown">
+                {% assign className = 'dropdown' %}
+                {% for part in pageParts %}
+                    {% if part == 'usability' %}
+                        {% assign className = 'dropdown active' %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+                <li class="{{ className }}">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usability <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        {% for page in site.collections.usability.docs %}
-                        <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.usability.title }}</a></li>
+                        {% for item in site.usability %}
+                            {% assign className = '' %}
+                            {% if page.url == item.url %}
+                                {% assign className = 'active' %}
+                            {% endif %}
+                            <li class="{{ className }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.usability.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
-                <li><a href="{{ site.baseurl }}/general-policies">General Policies</a></li>
-                <li><a href="{{ site.baseurl }}/about">About</a></li>
+                {% assign pageLink = page.url | remove:'index.html' | replace:'/','' %}
+
+                {% assign className = '' %}
+                {% if pageLink == 'general-policies' %}
+                    {% assign className = 'active' %}
+                {% endif %}
+                <li class="{{ className }}"><a href="{{ site.baseurl }}/general-policies">General Policies</a></li>
+                {% assign className = '' %}
+                {% if pageLink == 'about' %}
+                    {% assign className = 'active' %}
+                {% endif %}
+                <li class="{{ className }}"><a href="{{ site.baseurl }}/about">About</a></li>
             </ul>
-            <p class="navbar-text navbar-right"><a href="https://github.com/fredck/test-erfc" class="navbar-link">Source on GitHub</a></p>
+            <p class="navbar-text navbar-right"><a href="https://github.com/ckeditor/editor-recommendations/" class="navbar-link">Source on GitHub</a></p>
         </div><!--/.nav-collapse -->
     </div>
 </nav>

@@ -65,7 +65,7 @@
                 <h3 class="panel-title">Use Cases</h3>
             </div>
             <div class="list-group">
-                {% for casePage in site.collections["use-cases"].docs %}
+                {% for casePage in site["use-cases"] %}
                     {% assign className = 'list-group-item' %}
                     {% if casePage.case.title == page.case.title %}
                         {% assign className = 'list-group-item active' %}

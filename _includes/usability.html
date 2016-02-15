@@ -19,7 +19,7 @@
                 <h3 class="panel-title">Usability</h3>
             </div>
             <div class="list-group">
-                {% for usabilityPage in site.collections.usability.docs %}
+                {% for usabilityPage in site.usability %}
                     {% assign className = 'list-group-item' %}
                     {% if usabilityPage.usability.title == page.usability.title %}
                         {% assign className = 'list-group-item active' %}
