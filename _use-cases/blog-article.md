@@ -32,7 +32,7 @@ Although not oficially specified, this format follows some strict conventions wh
 
 {% capture usability %}
 
-* [Auto-paragraphing]({{ site.baseurl }}/usability/enter.html#auto-paragraphing)
+* [Auto-paragraphing]({{ site.baseurl }}/usability/enter-key.html#auto-paragraphing)
 
 {% endcapture %}
 
