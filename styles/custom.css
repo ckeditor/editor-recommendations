@@ -41,3 +41,6 @@ body > .container {
 .navbar {
   border-radius: 0;
 }
+.navbar-text {
+  line-height: 20px;
+}
