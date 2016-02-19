@@ -1,10 +1,54 @@
-/* Footer styles */
+.navbar:not(.navbar-fixed-top){
+  margin-bottom: 0;
+}
+body {
+  line-height: 1.8;
+}
+
+body footer *
+{
+  /* Reset line-height for navbar and footer */
+  line-height: 1.42857143;
+}
+
+/* Sticky footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+}
+body > .container {
+  /* Push footer 20px from content */
+  margin-bottom: 20px;
+}
 .footer {
-  margin-top: 50px;
-  padding: 50px 0;
   background: #222;
   color: #9d9d9d;
+
+  width: 100%;
+  padding: 21px 0;
+  position: absolute;
+}
+.footer p {
+  margin: 0;
 }
 .footer a {
   color: #fff;
+}
+.navbar {
+  border-radius: 0;
+}
+.navbar-text {
+  line-height: 20px;
+}
+@media handheld, only screen and (min-width: 768px) {
+  body > .container {
+    margin-bottom: 100px;
+  }
+  .footer {
+    bottom: 0;
+  }
 }
