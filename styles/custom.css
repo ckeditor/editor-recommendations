@@ -18,19 +18,19 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 body > .container {
   /* Push footer 20px from content */
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 .footer {
   background: #222;
   color: #9d9d9d;
 
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+  padding: 21px 0;
+  position: absolute;
 }
 .footer p {
   margin: 0;
@@ -43,4 +43,12 @@ body > .container {
 }
 .navbar-text {
   line-height: 20px;
+}
+@media handheld, only screen and (min-width: 768px) {
+  body > .container {
+    margin-bottom: 100px;
+  }
+  .footer {
+    bottom: 0;
+  }
 }
