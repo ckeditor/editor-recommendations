@@ -1,0 +1,29 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ include.type | capitalize}}</h3>
+    </div>
+    <div class="list-group">
+        {% for item in include.items %}
+            {% assign className = 'list-group-item' %}
+
+            {% if item.feature.name %}
+                {% assign title = item.feature.name %}
+                {% assign pageTitle = page.feature.name %}
+            {% endif %}
+            {% if item.case.title %}
+                {% assign title =  item.case.title %}
+                {% assign pageTitle =  page.case.title %}
+            {% endif %}
+            {% if item.usability.title %}
+                {% assign title = item.usability.title %}
+                {% assign pageTitle = page.usability.title %}
+            {% endif %}
+
+            {% if title == pageTitle %}
+                {% assign className = 'list-group-item active' %}
+            {% endif %}
+            
+            <a href="{{ site.baseurl }}{{ item.url }}" class="{{ className }}">{{ title }}</a>
+        {% endfor %}
+    </div>
+</div>

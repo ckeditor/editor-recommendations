@@ -1,13 +1,4 @@
-<div class="page-header">
-    <h1>{{ page.case.title }} 
-        <span class="small"> // use case {{ page.case.status | downcase }} 
-            <a href="{{ page.case.discussion }}" title="Public discussion">
-                <i class="glyphicon glyphicon-bullhorn" aria-hidden="true"></i>
-                <span class="sr-only">Public discussion</span>
-            </a>
-        </span>
-    </h1>
-</div>
+{% include page-header.html title=page.case.title type="use case" status=page.case.status discussion=page.case.discussion %}
 
 <div class="row">
     <div class="col-md-10">
@@ -60,19 +51,6 @@
         {% endif %}
     </div>
     <div class="col-md-2">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Use Cases</h3>
-            </div>
-            <div class="list-group">
-                {% for casePage in site["use-cases"] %}
-                    {% assign className = 'list-group-item' %}
-                    {% if casePage.case.title == page.case.title %}
-                        {% assign className = 'list-group-item active' %}
-                    {% endif %}
-                    <a href="{{ site.baseurl }}{{ casePage.url }}" class="{{ className }}">{{ casePage.case.title }}</a>
-                {% endfor %}
-            </div>
-        </div>
+        {% include type-links.html type="Use Cases" items=site.use-cases %}
     </div>
 </div>

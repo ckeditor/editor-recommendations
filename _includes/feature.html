@@ -1,13 +1,4 @@
-<div class="page-header">
-    <h1>{{ page.feature.name }} 
-        <span class="small"> // feature {{ page.feature.status | downcase }} 
-            <a href="{{ page.feature.discussion }}" title="Public discussion">
-                <i class="glyphicon glyphicon-bullhorn" aria-hidden="true"></i>
-                <span class="sr-only">Public discussion</span>
-            </a>
-        </span>
-    </h1>
-</div>
+{% include page-header.html title=page.feature.name type="feature" status=page.feature.status discussion=page.feature.discussion %}
 
 <div class="row">
     <div class="col-md-10">
@@ -62,19 +53,6 @@
         {% endif %}
     </div>
     <div class="col-md-2">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Features</h3>
-            </div>
-            <div class="list-group">
-                {% for featurePage in site.features %}
-                    {% assign className = 'list-group-item' %}
-                    {% if featurePage.feature.name == page.feature.name %}
-                        {% assign className = 'list-group-item active' %}
-                    {% endif %}
-                    <a href="{{ site.baseurl }}{{ featurePage.url }}" class="{{ className }}">{{ featurePage.feature.name }}</a>
-                {% endfor %}
-            </div>
-        </div>
+        {% include type-links.html type="Features" items=site.features %}
     </div>
 </div>
