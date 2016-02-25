@@ -9,20 +9,21 @@ layout: default
 
 {% capture description %}
 
-###Description
+## Description
 
 Inline styles (like bold, italic or strikethrough) might be active or inactive. This information is both for user experience
 and have an impact on editor behavior. It is very important to correctly set style state because it has big impact on UX.
 There are multiple situations when deducing style state is not trivial and the editor is expected to make educated guess
 to enable better experience for the user.
 
-###User expectations and popular behavior
+## User expectations and popular behavior
 
 Inline style state is represented through UI, most often by changing the look of the button connected with certain feature.
 Style state has different meaning, depending whether some content in the editor is selected or not.
 
 If content is selected, it is expected that style state reflects state of that content. For example, if bold text is
 selected, bold style state should be "active" to:
+
 * inform the user,
 * un-bold the selected text if the user uses bold feature
 
@@ -30,7 +31,7 @@ If content is not selected, it is expected that newly typed text will have appli
 user placed caret somewhere in the content and used bold feature, it state should become "active" and any typed
 character should have bold applied. After using bold feature again, it's state should become "inactive".
 
-###Problems to solve
+## Problems to solve
 
 1. Selection has content with different styles applied.
 2. Selection has content which cannot have certain style applied (for example image cannot have italic style applied).
@@ -40,9 +41,9 @@ character should have bold applied. After using bold feature again, it's state s
 6. Caret is placed in new or empty paragraph.
 7. What should happen when user removes selected content.
 
-###Proposals
+## Proposals
 
-**1. Selection has content with different styles applied.**
+### 1. Selection has content with different styles applied.
 
 If style state cannot be directly reflected by selection content, it should reflect what is expected editor behavior.
 
@@ -57,23 +58,23 @@ selection is on **f[o**b**a]r** and bold state is inactive, what should be style
 
 *What if given style have multiple possible values? I.e. font color.*
 
-**2. Selection has content which cannot have certain style applied.**
+### 2. Selection has content which cannot have certain style applied.
 
 As long as there is content that is applicable for given style, content that cannot be styled should not have any
 impact on style state.
 
-**3. Selection is done backwards.**
+### 3. Selection is done backwards.
 
 *Note: just basing on browsers, this should not have any impact on style state. This makes sense, because style state
 should be connected with selection contents and not the way it was made.*
 
-**4. Selection has multiple ranges in it.**
+### 4. Selection has multiple ranges in it.
 
 Each range should be checked in same way as single-range selection and the results should be "added". For example, if
 one range has only bold text but the other range has non-bold text, style state should be "inactive".
 *Argumentation needed?*
 
-**5. Caret is placed between two characters with different styles.**
+### 5. Caret is placed between two characters with different styles.
 
 Similar to 1. Style state should reflect state of character before or after caret. Sometimes there might be no characters
 before/after, i.e. when caret is at the beginning or end of paragraph, or before or after an image). By default it
@@ -84,20 +85,20 @@ the caret looks at the side it "came from". So, when user clicks left, the caret
 was in bold text and by arrows it was moved to a place between bold and non-bold character, style state remain bolded.
 This could called "style retention". It greatly enhances UX by giving the user more ability to manipulate style state.*
 
-**6. Caret is placed in new or empty paragraph.**
+### 6. Caret is placed in new or empty paragraph.
 
 When user creates new paragraph it is expected that they want to use same styles that before breaking the paragraph.
 Style state should be retained. When navigating to empty paragraph, styles states should be recovered to the last known
 styles states encountered in that paragraph. *Argumentation needed?*
 
-**7. What should happen when user removes selected content.**
+### 7. What should happen when user removes selected content.
 
 After user removes selected content it is expected that they want to continue typing in the context before the caret.
 Styles state should be taken from the character before.
 
 *Argumentation needed?*
 
-###Styles decision algorithm proposal
+## Styles decision algorithm proposal
 
 Taken into consideration question and answers above, this is a proposal of algorithm for deciding styles state when
 selection is made in editor or caret position is changed.
