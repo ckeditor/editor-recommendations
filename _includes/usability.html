@@ -2,7 +2,32 @@
 
 <div class="row">
     <div class="col-md-10">
+
         {{ description | markdownify }}
+
+        {% if notes %}
+
+        <h2>Notes</h2>
+
+        {{ notes | markdownify }}
+
+        {% endif %}
+
+        {% if images %}
+
+        <h2>Sources of images</h2>
+
+        {{ images | markdownify }}
+
+        {% endif %}
+
+        {% if references %}
+
+        <h2>References</h2>
+
+        {{ references | markdownify }}
+
+        {% endif %}
     </div>
     <div class="col-md-2">
         {% include type-links.html type="Usability" items=site.usability %}
