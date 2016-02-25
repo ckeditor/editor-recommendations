@@ -115,4 +115,10 @@ set styles basing on it.
 
 {% endcapture %}
 
+{% capture references %}
+
+1. [An issue in CKEditor 4 tracker: *Impossible to place caret in an empty inline style that existed in an empty block*](https://dev.ckeditor.com/ticket/12634).
+
+{% endcapture %}
+
 {% include usability.html %}
