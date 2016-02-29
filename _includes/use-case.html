@@ -1,7 +1,7 @@
 {% include page-header.html title=page.case.title type="use case" status=page.case.status discussion=page.case.discussion %}
 
 <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-9">
         {% if description %}
 
         {{ description | markdownify }}
@@ -9,7 +9,7 @@
         {% endif %}
 
         <h2>Functionality</h2>
-        
+
         {% if features %}
 
         <h3>Features</h3>
@@ -17,7 +17,7 @@
         {{ features | markdownify }}
 
         {% endif %}
-        
+
         {% if usability %}
 
         <h3>Usability Features</h3>
@@ -25,7 +25,7 @@
         {{ usability | markdownify }}
 
         {% endif %}
-        
+
         {% if notes %}
 
         <h2>Notes</h2>
@@ -50,7 +50,7 @@
 
         {% endif %}
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
         {% include type-links.html type="Use Cases" items=site.use-cases %}
     </div>
 </div>
