@@ -1,7 +1,7 @@
 {% include page-header.html title=page.feature.name type="feature" status=page.feature.status discussion=page.feature.discussion %}
 
 <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-9">
         {{ description | markdownify }}
 
         {% if ui %}
@@ -52,7 +52,7 @@
 
         {% endif %}
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3">
         {% include type-links.html type="Features" items=site.features %}
     </div>
 </div>
