@@ -6,12 +6,12 @@ body {
 }
 
 /* Improves readability by constraining text's width */
-.container p, .container li {
-  max-width: 700px;
+body > .content {
+  max-width: 900px;
   text-align: justify;
 }
-.footer p {
-  max-width: none;
+.content p, .content li {
+  max-width: 700px;
 }
 
 body footer * {
