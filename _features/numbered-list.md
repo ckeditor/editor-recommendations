@@ -29,7 +29,7 @@ The `<li>` element MUST be used to represent individual elements inside the feat
 
 Example:
 
-```
+```html
 In case of emergency:
 <ol>
 	<li>Commit all your changes to Git.</li>

@@ -38,7 +38,7 @@ The caption, if it is present, MUST be represented by the `<figcaption>` element
 
 Example:
 
-```
+```html
 <figure>
 	<img src="http://c.cksource.com/a/1/img/sample.jpg" alt="Saturn V carrying Apollo 11">
 	<figcaption>Figure 1: Beginning of Apollo 11 mission</figcaption>

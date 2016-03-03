@@ -27,7 +27,7 @@ The `<strong>` element MUST be used to represent the **Bold** feature as it is i
 
 Example:
 
-```
+```html
 This page is about the <strong>Bold</strong> feature.
 ```
 

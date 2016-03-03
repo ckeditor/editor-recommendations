@@ -29,7 +29,7 @@ The `<li>` element MUST be used to represent individual elements inside the feat
 
 Example:
 
-```
+```html
 I must buy:
 <ul>
 	<li>Eggs</li>

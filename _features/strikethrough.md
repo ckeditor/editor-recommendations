@@ -27,7 +27,7 @@ The `<s>` element MUST be used to represent the **Strikethrough** feature as it 
 
 Example:
 
-```
+```html
 HTML 4 <s>is</s> was the best HTML ever.
 ```
 

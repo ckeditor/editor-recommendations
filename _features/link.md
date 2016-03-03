@@ -31,7 +31,7 @@ The link element MAY have other attributes defined for the HTML `<a>` element, s
 
 Example:
 
-```
+```html
 <a href="http://ckeditor.com">CKEditor</a> is an online rich text editor.
 ```
 

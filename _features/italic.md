@@ -27,7 +27,7 @@ The `em` element MUST be used to represent the **Italic** feature, as it's the e
 
 Example:
 
-```
+```html
 The Italic feature is also known as <em>Emphatic Stress</em>.
 ```
 
