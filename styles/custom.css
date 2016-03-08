@@ -65,12 +65,3 @@ body > .container {
     bottom: 0;
   }
 }
-
-/* Code highlighting */
-pre {
-  background: transparent;
-  padding: 0;
-}
-pre > code.hljs {
-  padding: 9.5px;
-}

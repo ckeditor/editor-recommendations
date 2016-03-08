@@ -14,7 +14,7 @@ collections:
 exclude: [ "Gemfile", "README.md" ]
 
 # GitHub defaults.
-highlighter: false
+highlighter: rouge
 
 # GitHub enforced options (non overridable).
 safe: true
