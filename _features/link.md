@@ -17,7 +17,7 @@ The **Link** feature provides the user with the ability to link some parts of co
 
  * UI: A feature providing the user with a way to set up properties for the new link, usually represented as a button with the "<i class="glyphicon glyphicon-link" aria-label="Link" title="Link"></i>" icon that opens a dialog window with form fields to edit the link properties
  * Title: "Link"
- * Keystroke: <kbd>Ctrl+L</kbd>
+ * Keystroke: <kbd>Ctrl+K</kbd>
 
 {% endcapture %}
 
@@ -39,7 +39,7 @@ Example:
 
 {% capture implementation %}
 
-* In offline text editors, such as Microsoft Word or LibreOffice Writer, a keystroke for inserting a link is <kbd>Ctrl+K</kbd>, but that keystroke is reserved in web browsers and SHOULD NOT be altered<sup>[[3](#ref3)]</sup>.
+* In offline text editors, such as Microsoft Word or LibreOffice Writer, a keystroke for inserting a link is <kbd>Ctrl+K</kbd> and this keystroke is a _de facto_ standard for inserting links. However it should be noted that this keystroke is reserved in web browsers and reassigning it may cause issues with user experience<sup>[[3](#ref3)]</sup>.
 
 {% endcapture %}
 
