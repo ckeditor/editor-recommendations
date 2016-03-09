@@ -27,6 +27,8 @@ The image is usually accompanied with a caption.
 
 The `<figure>` element MUST be used to represent the **Image** feature as it is the standard way to express self-contained non-textual additional content<sup>[[1](#ref1)]</sup>.
 
+The `<figure>` element SHOULD have a `class` attribute which value is set to `image` to identify that the element is being used for representing image and to allow styling that particular use-case.
+
 The `<img>` element MUST be used to represent the image itself as it is the standard way to express an image in HTML<sup>[[2](#ref2)]</sup>.
 
 The `<img>` element MUST have at least the following attributes:
