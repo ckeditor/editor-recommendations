@@ -39,13 +39,10 @@ Example:
 
 ```html
 <figure class="quote">
-	<blockquote cite="https://pl.wikisource.org/wiki/Pan_Tadeusz_(wyd._1834)/Ksi%C4%99ga_pierwsza">
-		<p>Litwo! Ojczyzno moja! ty jesteś jak zdrowie.<br>
-		Ile cię trzeba cenić, ten tylko się dowie,<br>
-		Kto cię stracił. Dziś piękność twą w całej ozdobie<br>
-		Widzę i opisuję, bo tęsknię po tobie.</p>
+	<blockquote cite="https://en.wikipedia.org/wiki/Apollo_11">
+		<p>Apollo 11 was the first spaceflight that landed humans on the Moon. Americans Neil Armstrong and Buzz Aldrin landed on July 20, 1969, at 20:18 UTC (46 years ago). Armstrong became the first to step onto the lunar surface six hours later on July 21 at 02:56 UTC. Armstrong spent about two and a half hours outside the spacecraft, and together with Aldrin collected 47.5 pounds (21.5 kg) of lunar material for return to Earth. The third member of the mission, Michael Collins, piloted the command spacecraft alone in lunar orbit until Armstrong and Aldrin returned to it just under a day later for the trip back to Earth.</p>
 	</blockquote>
-	<figcaption><cite>Adam Mickiewicz, <i>Pan Tadeusz</i></cite></figcaption>
+	<figcaption><cite><i>Apollo 11</i>, Wikipedia.org</cite></figcaption>
 </figure>
 ```
 
