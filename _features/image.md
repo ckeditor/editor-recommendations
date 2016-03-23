@@ -56,7 +56,6 @@ Example:
 3. <a id="ref3"></a>[The definition of a valid URL in the HTML 5 standard](http://www.w3.org/TR/html5/infrastructure.html#urls).
 4. <a id="ref4"></a>[Requirements for providing text to act as an alternative for images in the HTML5 standard](http://www.w3.org/TR/html5/embedded-content-0.html#alt).
 5. <a id="ref5"></a>[The `<figcaption>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element).
-6. <a id="ref6"></a>[<i>Use Cases and Requirements for Standardizing Responsive Images</i>](http://usecases.responsiveimages.org/).
 
 {% endcapture %}
 
