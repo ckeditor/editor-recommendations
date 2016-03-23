@@ -50,12 +50,12 @@ Example:
 
 {% capture references %}
 
-1. <a id="ref1"></a>[The `<figure>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figure-element).
-2. <a id="ref2"></a>[The `<blockquote>` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element).
-3. <a id="ref3"></a>[The `cite` attribute definition in the HTML 5 standard](https://www.w3.org/TR/html5/grouping-content.html#attr-blockquote-cite).
-4. <a id="ref4"></a>[The definition of a valid URL in the HTML 5 standard](http://www.w3.org/TR/html5/infrastructure.html#urls).
-5. <a id="ref5"></a>[The `<cite>` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/text-level-semantics.html#the-cite-element).
-6. <a id="ref6"></a>[The `<figcaption>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element).
+1. <a id="ref1"></a>[The `<figure>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figure-element).
+2. <a id="ref2"></a>[The `<blockquote>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element).
+3. <a id="ref3"></a>[The `cite` attribute definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#attr-blockquote-cite).
+4. <a id="ref4"></a>[The definition of a valid URL in the HTML5 standard](http://www.w3.org/TR/html5/infrastructure.html#urls).
+5. <a id="ref5"></a>[The `<cite>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/text-level-semantics.html#the-cite-element).
+6. <a id="ref6"></a>[The `<figcaption>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element).
 
 {% endcapture %}
 

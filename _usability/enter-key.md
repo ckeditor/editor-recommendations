@@ -43,8 +43,8 @@ If the current selection position does not allow block context and does not allo
 
 {% capture references %}
 
-1. 	<a id="ref1"></a>[The `p` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-p-element).
-2. <a id="ref2"></a>[The `br` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/text-level-semantics.html#the-br-element).
+1. 	<a id="ref1"></a>[The `p` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-p-element).
+2. <a id="ref2"></a>[The `br` element definition in the HTML5 standard](https://www.w3.org/TR/html5/text-level-semantics.html#the-br-element).
 
 {% endcapture %}
 

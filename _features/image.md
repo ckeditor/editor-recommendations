@@ -51,11 +51,11 @@ Example:
 
 {% capture references %}
 
-1. <a id="ref1"></a>[The `<figure>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figure-element).
-2. <a id="ref2"></a>[The `<img>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element).
-3. <a id="ref3"></a>[The definition of a valid URL in the HTML 5 standard](http://www.w3.org/TR/html5/infrastructure.html#urls).
+1. <a id="ref1"></a>[The `<figure>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figure-element).
+2. <a id="ref2"></a>[The `<img>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element).
+3. <a id="ref3"></a>[The definition of a valid URL in the HTML5 standard](http://www.w3.org/TR/html5/infrastructure.html#urls).
 4. <a id="ref4"></a>[Requirements for providing text to act as an alternative for images in the HTML5 standard](http://www.w3.org/TR/html5/embedded-content-0.html#alt).
-5. <a id="ref5"></a>[The `<figcaption>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element).
+5. <a id="ref5"></a>[The `<figcaption>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element).
 
 {% endcapture %}
 

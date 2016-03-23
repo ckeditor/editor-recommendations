@@ -57,8 +57,8 @@ Although this feature should be called "Unordered List", for historical reasons 
 
 {% capture references %}
 
-1. <a id="ref1"></a>[The `<ul>` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-ul-element).
-2. <a id="ref2"></a>[The `<li>` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-li-element).
+1. <a id="ref1"></a>[The `<ul>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-ul-element).
+2. <a id="ref2"></a>[The `<li>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-li-element).
 
 {% endcapture %}
 

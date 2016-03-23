@@ -56,8 +56,8 @@ Although this feature should be called "Ordered List", for historical reasons us
 
 {% capture references %}
 
-1. <a id="ref1"></a>[The `<ol>` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-ol-element).
-2. <a id="ref2"></a>[The `<li>` element definition in the HTML 5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-li-element).
+1. <a id="ref1"></a>[The `<ol>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-ol-element).
+2. <a id="ref2"></a>[The `<li>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-li-element).
 
 {% endcapture %}
 
