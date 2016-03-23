@@ -49,14 +49,6 @@ Example:
 
 {% endcapture %}
 
-{% capture implementation %}
-
-* If the image is intended to be displayed on a wide variety of devices, it SHOULD be declaratively (as part of created content) marked as responsive. This could be achieved by using one of the following methods<sup>[[6](#ref6), [7](#ref7)]</sup>:
-	* The `[srcset]` attribute added to the `<img>` element<sup>[[2](#ref2)]</sup>.
-	* The `<picture>` element<sup>[[8](#ref8)]</sup>.
-
-{% endcapture %}
-
 {% capture references %}
 
 1. <a id="ref1"></a>[The `<figure>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figure-element).
@@ -65,8 +57,6 @@ Example:
 4. <a id="ref4"></a>[Requirements for providing text to act as an alternative for images in the HTML5 standard](http://www.w3.org/TR/html5/embedded-content-0.html#alt).
 5. <a id="ref5"></a>[The `<figcaption>` element definition in the HTML 5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element).
 6. <a id="ref6"></a>[<i>Use Cases and Requirements for Standardizing Responsive Images</i>](http://usecases.responsiveimages.org/).
-7. <a id="ref7"></a>[Adaptive images in the HTML5 standard](http://www.w3.org/TR/html51/semantics.html#adaptive-images).
-8. <a id="ref8"></a>[The `picture` element definition in the HTML 5.1 draft](http://www.w3.org/TR/html51/semantics.html#the-picture-element).
 
 {% endcapture %}
 
