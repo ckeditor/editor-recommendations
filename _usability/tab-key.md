@@ -8,7 +8,17 @@ layout: default
 
 {% capture description %}
 
-TODO: Describe how the <kbd>Tab</kbd> key should behave.
+<kbd>Tab</kbd> key is used to…
+
+{% endcapture %}
+
+{% capture expectations %}
+
+User expects that:
+
+{% endcapture %}
+
+{% capture recommendations %}
 
 {% endcapture %}
 
