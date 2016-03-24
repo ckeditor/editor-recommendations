@@ -9,12 +9,11 @@ layout: default
 
 {% capture description %}
 
-## Description
-
 Inline styles (like bold, italic or strikethrough) might be active or inactive. This information is both for user experience and have an impact on editor behavior. It is very important to correctly set style state because it has big impact on UX. There are multiple situations when deducing style state is not trivial and the editor is expected to make educated guess to enable better experience for the user.
 
-## User Expectations and Popular Behavior
+{% endcapture %}
 
+{% capture expectations %}
 Inline style state is represented through UI, most often by changing the look of the button connected with certain feature. Style state has different meaning, depending whether some content in the editor is selected or not.
 
 If content is selected, it is expected that style state reflects state of that content. For example, if bold text is selected, bold style state should be "active" to:
@@ -23,6 +22,10 @@ If content is selected, it is expected that style state reflects state of that c
 * un-bold the selected text if the user uses bold feature
 
 If content is not selected, it is expected that newly typed text will have applied all active styles. For example, if user placed caret somewhere in the content and used bold feature, it state should become "active" and any typed character should have bold applied. After using bold feature again, it's state should become "inactive".
+
+{% endcapture %}
+
+{% capture recommendations %}
 
 ## Problems to Solve
 

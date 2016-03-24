@@ -9,17 +9,21 @@ layout: default
 
 {% capture description %}
 
-## Description
-
 <kbd>Enter</kbd> key is used to insert a line break into the editable area. This default behavior could be altered by the context of current selection, type of the content or a modifier key pressed along the <kbd>Enter</kbd> key.
 
-## User Expectations and Popular Behavior
+{% endcapture %}
+
+{% capture expectations %}
 
 User expects that:
 
 * Pressing the <kbd>Enter</kbd> key would create a new block of text.
 * Pressing the <kbd>Shift+Enter</kbd> combination would break a line of text without creating a new block of text.
 * The default behavior, defined above, differs when the current selection is in non-paragraph context (e.g. inside heading or list).
+
+{% endcapture %}
+
+{% capture recommendations %}
 
 ## Block context
 
