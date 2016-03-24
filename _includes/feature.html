@@ -52,6 +52,14 @@
 
         {% endif %}
 
+        {% if figures %}
+
+        <h2>Sources of Figures</h2>
+
+        {{ figures | markdownify }}
+
+        {% endif %}
+
         {% if references %}
 
         <h2>References</h2>
