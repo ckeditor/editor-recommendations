@@ -8,12 +8,12 @@ layout: default
 ---
 
 {% capture description %}
+
 Although not oficially specified, this format follows some strict conventions which are <i>de facto</i> standard. These conventions are derived from newspapers ones. A blog/article has a strong semantic structure that divides the text into logical fragments and is frequently denoted  by headings. The textual content is usually accompanied with multimedia content, especially images.
 
 {% include figures/thumbnail.html src="use_case/blog-article/fig-1-thumbnail.png" full="use_case/blog-article/fig-1.png" alt="An example of a blog article, showing a few of the most frequently used features: images, headings, paragraphs, links, lists and quotes" caption="A basic form of a blog/article." %}
 
 {% endcapture %}
-
 
 {% capture features %}
 
@@ -23,10 +23,9 @@ Although not oficially specified, this format follows some strict conventions wh
 * [Italic]({{ site.baseurl }}/features/italic.html)
 * [Strikethrough]({{ site.baseurl }}/features/strikethrough.html)
 * [Image]({{ site.baseurl }}/features/image.html)
-* Quote
+* [Quote]({{ site.baseurl}}/features/quote.html)
 * [Bulleted List]({{ site.baseurl }}/features/bulleted-list.html)
 * [Numbered List]({{ site.baseurl }}/features/numbered-list.html)
-
 
 {% endcapture %}
 
