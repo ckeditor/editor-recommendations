@@ -5,12 +5,8 @@
 	{% assign figureCount = figureCount | plus: 1 %}
 {% endif %}
 <figure class="thumbnail">
-	{% if include.full %}
-	<a href="{{ site.baseurl }}/images/{{ include.full }}" title="Click to open image in full size">
-	{% endif %}
+	<a href="{{ site.baseurl }}/images/{% if include.full %}{{ include.full }}{% else %}{{ include.src }}{% endif %}" title="Click to open image in full size">
 		<img src="{{ site.baseurl }}/images/{{ include.src }}" alt="{{ include.alt }}" class="img-responsive">
-	{% if include.full %}
 	</a>
-	{% endif %}
 	<figcaption class="caption"><a href="#fig-ref{{ figureCount }}"><b>Fig. {{ figureCount }}:</b></a> {{ include.caption }}</figcaption>
 </figure>
