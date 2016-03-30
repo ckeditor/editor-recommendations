@@ -21,7 +21,6 @@ It is a common practice that most of the blogs allow their users to comment the 
 * [Bold]({{ site.baseurl }}/features/bold.html)
 * [Italic]({{ site.baseurl }}/features/italic.html)
 * [Strikethrough]({{ site.baseurl }}/features/strikethrough.html)
-* [Image]({{ site.baseurl }}/features/image.html)
 * [Quote]({{ site.baseurl}}/features/quote.html)
 * [Bulleted List]({{ site.baseurl }}/features/bulleted-list.html)
 * [Numbered List]({{ site.baseurl }}/features/numbered-list.html)
