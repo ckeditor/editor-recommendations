@@ -17,7 +17,7 @@ The quote is usually accompanied with a source reference.
 
 {% capture ui %}
 
- * UI: A feature inserting the proper quote element into the editor's editable area, usually represented as a button with the "<i class="fa fa-quote-right" aria-label="Quote" title="Quote"></i>" icon
+ * UI: A feature inserting the proper quote element into the editor's editable area, usually represented as a button with the "<i class="fa fa-quote-right" title="Quote"></i><span class="sr-only">Quote</span>" icon
  * Title: "Quote"
  * Keystroke: –
 

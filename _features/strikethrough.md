@@ -15,7 +15,7 @@ The **Strikethrough** feature marks a part of the text that is no longer relevan
 
 {% capture ui %}
 
- * UI: ON/OFF feature, usually represented as a switch button with the "<s>S</s>" icon
+ * UI: ON/OFF feature, usually represented as a switch button with the "<i class="fa fa-strikethrough" title="Strikethrough" aria-hidden="true"></i><span class="sr-only">Strikethrough</span>" icon
  * Title: "Strikethrough"
  * Keystroke: —
 

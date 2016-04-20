@@ -15,7 +15,7 @@ The **Link** feature provides the user with the ability to link some parts of co
 
 {% capture ui %}
 
- * UI: A feature providing the user with a way to set up properties for the new link, usually represented as a button with the "<i class="glyphicon glyphicon-link" aria-label="Link" title="Link"></i>" icon that opens a dialog window with form fields to edit the link properties
+ * UI: A feature providing the user with a way to set up properties for the new link, usually represented as a button with the "<i class="fa fa-link" title="Link" aria-hidden="true"></i><span class="sr-only">Link</span>" icon that opens a dialog window with form fields to edit the link properties
  * Title: "Link"
  * Keystroke: <kbd>Ctrl+K</kbd>
 

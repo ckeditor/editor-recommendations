@@ -15,7 +15,7 @@ The **Bold** feature marks a part of the text with strong importance.
 
 {% capture ui %}
 
- * UI: ON/OFF feature, usually represented as a switch button with the "**B**" icon
+ * UI: ON/OFF feature, usually represented as a switch button with the "<i class="fa fa-bold" title="Bold" aria-hidden="true"></i><span class="sr-only">Bold</span>" icon
  * Title: "Important" or "Strong Importance"
  * Keystroke: <kbd>Ctrl+B</kbd>
 

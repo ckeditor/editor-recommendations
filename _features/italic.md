@@ -15,7 +15,7 @@ The **Italic** feature marks a part of the text with emphatic stress.
 
 {% capture ui %}
 
- * UI: ON/OFF feature, usually represented as a switch button with the "*I*" icon
+ * UI: ON/OFF feature, usually represented as a switch button with the "<i class="fa fa-italic" title="Italic" aria-hidden="true"></i><span class="sr-only">Italic</span>" icon
  * Title: "Emphatic Stress"
  * Keystroke: <kbd>Ctrl+I</kbd>
 
