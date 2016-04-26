@@ -36,6 +36,10 @@ The most important reason to bring this project to the public is to expand the d
 
 The project is extensively discussed in the [official Editor Recommendations repository on GitHub](https://github.com/ckeditor/editor-recommendations). Everyone is welcome to open and comment on issues there.
 
+## Privacy note
+
+We have integrated our Editor Recommendations Project with Google Tag Manager to see which parts are of the biggest interest to the community.
+
 ## License
 
 The contents of the project are Copyright © 2015-{{ site.time | date: '%Y' }} CKSource Frederico Knabben and are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
