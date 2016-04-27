@@ -16,8 +16,8 @@ The **Headings** feature allows user to divide the content via inserting headers
 {% capture ui %}
 
  * UI: usually represented as a part of "Styles" dropdown or "Styles" menu on a ribbon
- * Title: "Heading <x>", where "<x>" is a natural number indicating the heading's level
- * Keystroke: —
+ * Title: "Heading &lt;x&gt;", where "&lt;x&gt;" is a natural number indicating the heading's level
+ * Keystroke: <kbd>Ctrl+Shift+&lt;x&gt;</kbd>, where "&lt;x&gt;" is a natural number indicating the heading's level
  * Additional keyboard behavior:
    * <kbd>Enter</kbd> at the end of the heading SHOULD create an empty, default block context directly after the heading and move selection position inside the newly created block context.
    * <kbd>Enter</kbd> at the beginning or inside the heading SHOULD split the heading into two heading block contexts just before the selection position
