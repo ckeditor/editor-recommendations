@@ -40,6 +40,8 @@ The project is extensively discussed in the [official Editor Recommendations rep
 
 We have integrated our Editor Recommendations Project with Google Tag Manager to see which parts are of the biggest interest to the community.
 
+We may store information about you in cookies (files which are sent by us to your computer or other access device) which we can access when you visit our site in the future. If you want to delete any cookies that are already on your computer, please refer to the instructions of your file management software to locate the file or directory that stores cookies. If you want to stop cookies from being stored on your computer in the future, please refer to your browser manufacturer's instructions by clicking "Help" in your browser menu. Further information on deleting or controlling cookies is available at [www.AboutCookies.org](http://www.AboutCookies.org).
+
 ## License
 
 The contents of the project are Copyright © 2015-{{ site.time | date: '%Y' }} CKSource Frederico Knabben and are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
