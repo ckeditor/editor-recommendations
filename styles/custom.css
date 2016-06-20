@@ -66,27 +66,42 @@ body > .container {
   }
 }
 
-
-/*.navbar {
-    margin-bottom: 0px;
-}*/
 .jumbotron {
     background-color: #4f9cd0;
-}
-.jumbotron-bg {
-    background-image: url(../images/bg.png);
-    height: 300px;
-}
-
-.jumbotron {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+.jumbotron-bg {
+    background-image: none;
+    height: 360px;
+}
+
+@media (min-width: 668px) {
+    .jumbotron-bg {
+        background-image: none;
+        height: 340px;
+    }
+}
+@media (min-width: 992px) {
+    .jumbotron-bg {
+        background-image: none;
+        height: 300px;
+    }
+}
+@media (min-width: 1200px) {
+    .jumbotron-bg {
+        background-image: url(../images/bg.png);
+        height: 300px;
+    }
+}
+
 .jumbotron h1 {
     font-size: 54px;
     color: #ffffff;
     padding-top: 60px;
     margin-bottom: 0px;
+    word-wrap: break-word;
 }
 .jumbotron p {
     margin-bottom: 40px;
