@@ -74,21 +74,8 @@ body > .container {
 
 .jumbotron-bg {
     background-image: none;
-    height: 360px;
 }
 
-@media (min-width: 668px) {
-    .jumbotron-bg {
-        background-image: none;
-        height: 340px;
-    }
-}
-@media (min-width: 992px) {
-    .jumbotron-bg {
-        background-image: none;
-        height: 300px;
-    }
-}
 @media (min-width: 1200px) {
     .jumbotron-bg {
         background-image: url(../images/bg.png);
@@ -101,6 +88,7 @@ body > .container {
     color: #ffffff;
     padding-top: 60px;
     margin-bottom: 0px;
+    overflow: hidden;
     word-wrap: break-word;
 }
 .jumbotron p {
