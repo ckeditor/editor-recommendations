@@ -2,6 +2,7 @@
 usability:
   title: "Tab Key"
   status: "Draft"
+  discussion: "https://github.com/ckeditor/editor-recommendations/issues/41"
 
 description: Draft for Tab key behavior in WYSIWYG.
 layout: default
