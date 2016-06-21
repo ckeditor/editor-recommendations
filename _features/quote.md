@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Quote"
-  description: Draft for Quote feature in WYSIWYG.
   status: "Draft"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/18"
 
+description: Draft for Quote feature in WYSIWYG.
 layout: default
 ---
 

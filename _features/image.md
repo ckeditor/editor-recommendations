@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Image"
-  description: Draft for Image feature in WYSIWYG.
   status: "Draft"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/14"
 
+description: Draft for Image feature in WYSIWYG.
 layout: default
 ---
 
