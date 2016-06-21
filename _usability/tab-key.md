@@ -1,6 +1,7 @@
 ---
 usability:
   title: "Tab Key"
+  description: Draft for Tab key behavior in WYSIWYG.
   status: "Draft"
 
 layout: default

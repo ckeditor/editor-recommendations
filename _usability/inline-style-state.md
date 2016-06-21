@@ -1,6 +1,7 @@
 ---
 usability:
   title: "Inline style state"
+  description: Draft for Inline style state behavior in WYSIWYG.
   status: "Draft"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/32"
 

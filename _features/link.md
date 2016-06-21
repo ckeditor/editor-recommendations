@@ -1,6 +1,7 @@
 ---
 feature:
   name: "Link"
+  description: Draft for Link feature in WYSIWYG.
   status: "Draft"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/10"
 

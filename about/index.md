@@ -1,5 +1,6 @@
 ---
 title: About
+description: Information about Editor Recommendations Project – why, by whom and how
 layout: default
 ---
 

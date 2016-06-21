@@ -1,5 +1,6 @@
 ---
 title: General Policies and Guidelines
+description: Description of the rules which are used in creating the Editor Recommendations
 layout: default
 ---
 
@@ -23,7 +24,7 @@ The Editor Recommendations project is designed for the creation of content that 
  * Is future-proof.
 
 In other words, the goal is optimizing editors and their features to be in line with modern standards and guidelines for
-content creation. Other concerns like operating system compatibility and deprecated markup are not to be taken into consideration or may be presented as side notes.	
+content creation. Other concerns like operating system compatibility and deprecated markup are not to be taken into consideration or may be presented as side notes.
 
 ## Ctrl vs Cmd
 

@@ -1,6 +1,7 @@
 ---
 feature:
   name: "Numbered List"
+  description: Draft for Numbered List feature in WYSIWYG.
   status: "Draft"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/19"
 
