@@ -3,6 +3,9 @@ description: "The Editor Recommendations Project by the CKEditor Team"
 
 baseurl: "/editor-recommendations"
 
+gems:
+  - jekyll-seo-tag
+
 collections:
   features:
     output: true
@@ -17,7 +20,6 @@ exclude: [ "Gemfile", "README.md" ]
 highlighter: rouge
 
 # GitHub enforced options (non overridable).
-safe: true
 lsi: false
 excerpt_separator: ""
 
