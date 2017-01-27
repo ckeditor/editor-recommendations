@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Italic"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/2"
 
-description: Draft for Italic feature in WYSIWYG.
+description: Recommendation for Italic feature in WYSIWYG.
 layout: default
 ---
 
