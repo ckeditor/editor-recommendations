@@ -1,10 +1,10 @@
 ---
 case:
   title: "Private Message"
-  status: "Draft"
+  status: ""
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/11"
 
-description: Draft for Private Message WYSIWYG use-case.
+description: Private Message WYSIWYG use-case.
 layout: default
 ---
 

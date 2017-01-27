@@ -1,10 +1,10 @@
 ---
 case:
   title: "Article Comments"
-  status: "Draft"
+  status: ""
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/42"
 
-description: Draft for Article Comments WYSIWYG use-case.
+description: Article Comments WYSIWYG use-case.
 layout: default
 ---
 

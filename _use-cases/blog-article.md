@@ -1,10 +1,10 @@
 ---
 case:
   title: "Blog/Article"
-  status: "Draft"
+  status: ""
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/9"
 
-description: Draft for Blog/Article WYSIWYG use-case.
+description: Blog/Article WYSIWYG use-case.
 layout: default
 ---
 
