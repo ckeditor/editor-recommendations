@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Strikethrough"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/3"
 
-description: Draft for Strikethrough feature in WYSIWYG.
+description: Recommendation for Strikethrough feature in WYSIWYG.
 layout: default
 ---
 
