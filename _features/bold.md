@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Bold"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/1"
 
-description: Draft for Bold feature in WYSIWYG.
+description: Recommendation for Bold feature in WYSIWYG.
 layout: default
 ---
 
