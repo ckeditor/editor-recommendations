@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Headings"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/43"
 
-description: Draft for Headings feature in WYSIWYG.
+description: Recommendation for Headings feature in WYSIWYG.
 layout: default
 ---
 
