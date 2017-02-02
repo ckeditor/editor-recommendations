@@ -1,10 +1,10 @@
 ---
 usability:
   title: "Tab Key"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/41"
 
-description: Draft for Tab key behavior in WYSIWYG.
+description: Recommendation for Tab key behavior in WYSIWYG.
 layout: default
 ---
 
