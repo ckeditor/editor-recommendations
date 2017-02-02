@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Numbered List"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/19"
 
-description: Draft for Numbered List feature in WYSIWYG.
+description: Recommendation for Numbered List feature in WYSIWYG.
 layout: default
 ---
 

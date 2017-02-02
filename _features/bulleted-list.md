@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Bulleted List"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/19"
 
-description: Draft for Bulleted List feature in WYSIWYG.
+description: Recommendation for Bulleted List feature in WYSIWYG.
 layout: default
 ---
 
