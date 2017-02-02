@@ -1,10 +1,10 @@
 ---
 usability:
   title: "Enter Key"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/36"
 
-description: Draft for Enter key behavior in WYSIWYG.
+description: Recommendation for Enter key behavior in WYSIWYG.
 layout: default
 ---
 
