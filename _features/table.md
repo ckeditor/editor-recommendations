@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Table"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/44"
 
-description: Draft for Table feature in WYSIWYG.
+description: Recommendation for Table feature in WYSIWYG.
 layout: default
 ---
 
