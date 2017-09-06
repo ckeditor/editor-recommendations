@@ -25,7 +25,7 @@ The **Numbered List** feature allows the user to create ordered enumeration.
    * <kbd>Backspace</kbd> or <kbd>Delete</kbd> inside an empty list item, that is the only list item in the list, SHOULD replace the whole list with the default block context.
    * <kbd>Tab</kbd> at the beginning of a non-empty list item or inside an empty list item SHOULD indent the current list item, if the list item is allowed to be indented.
    * <kbd>Shift+Tab</kbd> inside an indented list item SHOULD outdent the current list item.
-   * <kbd>Enter</kbd> inside a non-empty list item SHOULD insert a new list item before the current list item.
+   * <kbd>Enter</kbd> inside a non-empty list item SHOULD split the current list item into two, depending on the position of caret.
    * <kbd>Enter</kbd> inside an empty, indented list item SHOULD outdent the current list item.
    * <kbd>Enter</kbd> inside an empty, non-indented list item SHOULD create a new default block context, following the list. If there are list items following the current list item, the list SHOULD be split into two lists, separated by the newly created default block context.
 
