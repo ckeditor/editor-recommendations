@@ -45,16 +45,16 @@ Example:
 
 {% capture implementation %}
 
-* If there is a need to provide more levels of headings, editor MAY allow to insert deeper levels by utilizing `<h5>` and `<h6>` elements<sup>[[1](#ref1)]</sup> with optional `[aria-level]`<sup>[[2](#ref2)]</sup> attribute.
+* If there is a need to provide more levels of headings, editor MAY allow to insert deeper levels by utilizing `<h5>` and `<h6>` elements<sup>[[1](#ref1)]</sup> with optional `aria-level`<sup>[[2](#ref2)]</sup> attribute.
 * In the vast majority of use cases, the content created using the editor would be a part of a page, therefore usage of `<h1>` element is highly unrecommended<sup>[[3](#ref3), [4](#ref4)]</sup>. However if the content of the editor would be presented in an independent form, `<h1>` element MAY be used<sup>[[1](#ref1)]</sup>. Implementer MAY think of naming this level of heading in a more distinguishable way e.g. "Title".
 
 {% endcapture %}
 
 {% capture references %}
 
-1. <a id="ref1"></a>[The `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` elements definition in the HTML5 standard](https://www.w3.org/TR/html5/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements).
-2. <a id="ref2"></a>[The description of `[aria-level]` attribute in the ARIA 1.0 standard](https://www.w3.org/TR/wai-aria/states_and_properties#aria-level).
-3. <a id="ref3"></a>[<i>Creating an outline</i> section in the HTML5 standard](https://www.w3.org/TR/html5/sections.html#outlines).
+1. <a id="ref1"></a>[The `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` elements definition in the HTML5 standard](https://www.w3.org/TR/html5/sections.html#the-h1-h2-h3-h4-h5-and-h6-elements).
+2. <a id="ref2"></a>[The description of `aria-level` attribute in the ARIA 1.1 standard](https://www.w3.org/TR/wai-aria/#aria-level).
+3. <a id="ref3"></a>[<i>Creating an outline</i> section in the HTML5 standard](https://www.w3.org/TR/html5/sections.html#creating-an-outline).
 4. <a id="ref4"></a>[Steve Faulkner, <i>The HTML5 Document Outline</i>](https://www.paciellogroup.com/blog/2013/10/html5-document-outline/).
 
 {% endcapture %}

@@ -34,8 +34,8 @@ The `<img>` element MUST be used to represent the image itself as it is the stan
 
 The `<img>` element MUST have at least the following attributes:
 
-* The `[src]` attribute with a valid URL pointing to the image<sup>[[3](#ref3)]</sup>.
-* The `[alt]` attribute that contains the textual alternative for the image, if any, or is empty, if the image conveys the information that could be derived from its context or caption<sup>[[4](#ref4)]</sup>.
+* The `src` attribute with a valid URL pointing to the image<sup>[[3](#ref3)]</sup>.
+* The `alt` attribute that contains the textual alternative for the image, if any, or is empty, if the image conveys the information that could be derived from its context or caption<sup>[[4](#ref4)]</sup>.
 
 The caption, if it is present, MUST be represented by the `<figcaption>` element<sup>[[5](#ref5)]</sup>.
 
@@ -54,8 +54,8 @@ Example:
 
 1. <a id="ref1"></a>[The `<figure>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figure-element).
 2. <a id="ref2"></a>[The `<img>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element).
-3. <a id="ref3"></a>[The definition of a valid URL in the HTML5 standard](http://www.w3.org/TR/html5/infrastructure.html#urls).
-4. <a id="ref4"></a>[Requirements for providing text to act as an alternative for images in the HTML5 standard](http://www.w3.org/TR/html5/embedded-content-0.html#alt).
+3. <a id="ref3"></a>[The definition of a valid URL in the HTML5 standard](https://www.w3.org/TR/html5/infrastructure.html#valid-url).
+4. <a id="ref4"></a>[<i>Requirements for providing text to act as an alternative for images<i> section in the HTML5 standard](https://www.w3.org/TR/html5/semantics-embedded-content.html#alt-text).
 5. <a id="ref5"></a>[The `<figcaption>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figcaption-element).
 
 {% endcapture %}

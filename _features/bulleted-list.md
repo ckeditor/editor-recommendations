@@ -68,7 +68,7 @@ Although this feature should be called "Unordered List", for historical reasons 
 
 1. <a id="ref1"></a>[The `<ul>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-ul-element).
 2. <a id="ref2"></a>[The `<li>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-li-element).
-3. <a id="ref3"></a>[The description of Rich Text Editor use case in <i>WAI-ARIA 1.0 Authoring Practices</i>](https://www.w3.org/TR/wai-aria-practices/#richtext).
+3. <a id="ref3"></a>[The description of Rich Text Editor use case in <i>WAI-ARIA 1.0 Authoring Practices</i>](https://rawgit.com/w3c/aria-practices/master/aria-practices-DeletedSectionsArchive.html#richtext).
 
 {% endcapture %}
 

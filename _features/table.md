@@ -72,7 +72,7 @@ Example:
 
 1. <a id="ref1"></a>[The `<figure>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/grouping-content.html#the-figure-element).
 2. <a id="ref1"></a>[The `<table>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/tabular-data.html#the-table-element).
-3. <a id="ref3"></a>[The `<thead> element definition in the HTML5 standard](https://www.w3.org/TR/html5/tabular-data.html#the-thead-element).
+3. <a id="ref3"></a>[The `<thead>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/tabular-data.html#the-thead-element).
 4. <a id="ref4"></a>[<i>Techniques for WCAG 2.0. H51: Using table markup to present tabular information</i>](https://www.w3.org/TR/WCAG20-TECHS/H51.html).
 5. <a id="ref5"></a>[The `<tr>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/tabular-data.html#the-tr-element).
 6. <a id="ref6"></a>[The `<th>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/tabular-data.html#the-th-element).

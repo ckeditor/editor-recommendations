@@ -53,7 +53,7 @@ When the focus is about to be moved away from the editable area, the current sel
 
 {% capture references %}
 
-1. <a id="ref1"></a>[The description of Rich Text Editor use case in <i>WAI-ARIA 1.0 Authoring Practices</i>](https://www.w3.org/TR/wai-aria-practices/#richtext).
+1. <a id="ref1"></a>[The description of Rich Text Editor use case in <i>WAI-ARIA 1.0 Authoring Practices</i>](https://rawgit.com/w3c/aria-practices/master/aria-practices-DeletedSectionsArchive.html#richtext).
 
 {% endcapture %}
 

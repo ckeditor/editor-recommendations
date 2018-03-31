@@ -57,7 +57,7 @@ Although not oficially specified, this format follows some strict conventions wh
 {% capture references %}
 
 1. <a id="ref1"></a>[Steve Faulkner, <i>The HTML5 Document Outline</i>](https://www.paciellogroup.com/blog/2013/10/html5-document-outline/).
-2. <a id="ref2"></a>[<i>G141: Organizing a page using headings</i>](http://www.w3.org/TR/WCAG20-TECHS/<G141 class="html"></G141>).
+2. <a id="ref2"></a>[<i>G141: Organizing a page using headings</i>](http://www.w3.org/TR/WCAG20-TECHS/G141.html).
 3. <a id="ref3"></a>[<i>About Accessibility Checker</i>](https://cksource.com/a11ychecker/demo/about.html).
 
 {% endcapture %}

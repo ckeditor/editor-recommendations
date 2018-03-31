@@ -28,7 +28,7 @@ The `<a>` element MUST be used to represent the **Link** feature as it is the st
 
 The link element MUST have at least the `[href]` attribute whose value is a valid URL<sup>[[2](#ref2)]</sup>.
 
-The link element MAY have other attributes defined for the HTML `<a>` element, such as `[target]`, `[download]`, `[rel]` or `[hreflang]`<sup>[[1](#ref1)]</sup>.
+The link element MAY have other attributes defined for the HTML `<a>` element, such as `target`, `download`, `rel` or `hreflang`<sup>[[1](#ref1)]</sup>.
 
 Example:
 
@@ -47,7 +47,7 @@ Example:
 {% capture references %}
 
 1. <a id="ref1"></a>[The `<a>` element definition in the HTML5 standard](http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element).
-2. <a id="ref2"></a>[The definition of a valid URL in the HTML5 standard](http://www.w3.org/TR/html5/infrastructure.html#urls).
+2. <a id="ref2"></a>[The definition of a valid URL in the HTML5 standard](https://www.w3.org/TR/html5/infrastructure.html#valid-url).
 3. <a id="ref3"></a>[A message about the <kbd>Ctrl+K</kbd> keystroke in browsers in a discussion about a keystroke for inserting links in GMail](https://productforums.google.com/d/msg/gmail/np9xeA97kBk/HSWwZFnDHS0J).
 
 {% endcapture %}
