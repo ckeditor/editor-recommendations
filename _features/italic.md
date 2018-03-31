@@ -16,7 +16,7 @@ The **Italic** feature marks a part of the text offset from the normal prose in 
 
 {% capture ui %}
 
- * UI: ON/OFF feature, usually represented as a switch button with the "<i class="fa fa-italic" title="Italic" aria-hidden="true"></i><span class="sr-only">Italic</span>" icon
+ * UI: ON/OFF feature, usually represented as a switch button with the "<span class="fa fa-italic" title="Italic" aria-hidden="true"></span><span class="sr-only">Italic</span>" icon
  * Title: "Italic"
  * Keystroke: <kbd>Ctrl+I</kbd>
 

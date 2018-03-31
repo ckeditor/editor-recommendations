@@ -16,7 +16,7 @@ The **Bulleted List** feature allows the user to create unordered enumeration.
 
 {% capture ui %}
 
- * UI: ON/OFF feature, usually represented as a switch button with the "<i class="fa fa-list-ul" title="Bulleted List" aria-hidden="true"></i><span class="sr-only">Bulleted List</span>" icon
+ * UI: ON/OFF feature, usually represented as a switch button with the "<span class="fa fa-list-ul" title="Bulleted List" aria-hidden="true"></span><span class="sr-only">Bulleted List</span>" icon
  * Title: "Unordered List" or "Bulleted List"
  * Keystroke: –
  * Additional keyboard behavior:

@@ -16,7 +16,7 @@ The **Highlight** feature marks a part of the text that is relevant in another c
 
 {% capture ui %}
 
- * UI: ON/OFF feature, usually represented as a switch button with the "<i class="fa fa-pencil" title="Highlight" aria-hidden="true"></i><span class="sr-only">Highlight</span>" icon
+ * UI: ON/OFF feature, usually represented as a switch button with the "<span class="fa fa-pencil" title="Highlight" aria-hidden="true"></span><span class="sr-only">Highlight</span>" icon
  * Title: "Highlight"
  * Keystroke: —
 

@@ -18,7 +18,7 @@ The image is usually accompanied with a caption.
 
 {% capture ui %}
 
- * UI: A feature providing the user with a way to set the properties of a new image, usually represented as a button with the "<i class="fa fa-image" title="Image" aria-hidden="true"></i><span class="sr-only">Image</span>" icon that opens a dialog with form fields to edit image properties
+ * UI: A feature providing the user with a way to set the properties of a new image, usually represented as a button with the "<span class="fa fa-image" title="Image" aria-hidden="true"></span><span class="sr-only">Image</span>" icon that opens a dialog with form fields to edit image properties
  * Title: "Image"
  * Keystroke: –
 

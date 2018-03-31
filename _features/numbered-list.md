@@ -16,7 +16,7 @@ The **Numbered List** feature allows the user to create ordered enumeration.
 
 {% capture ui %}
 
- * UI: ON/OFF feature, usually represented as a switch button with the "<i class="fa fa-list-ol" title="Numbered List" aria-hidden="true"></i><span class="sr-only">Numbered List</span>" icon
+ * UI: ON/OFF feature, usually represented as a switch button with the "<span class="fa fa-list-ol" title="Numbered List" aria-hidden="true"></span><span class="sr-only">Numbered List</span>" icon
  * Title: "Ordered List" or "Numbered List"
  * Keystroke: –
  * Additional keyboard behavior:

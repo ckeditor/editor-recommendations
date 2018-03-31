@@ -16,7 +16,7 @@ The **Table** feature allows the user to create data table.
 
 {% capture ui %}
 
- * UI: A feature providing the user with a way to set up properties for the new table, usually represented as a button with the "<i class="fa fa-table" title="Table" aria-hidden="true"></i><span class="sr-only">Table</span>" icon that opens a dialog window with form fields to edit the table properties
+ * UI: A feature providing the user with a way to set up properties for the new table, usually represented as a button with the "<span class="fa fa-table" title="Table" aria-hidden="true"></span><span class="sr-only">Table</span>" icon that opens a dialog window with form fields to edit the table properties
  * Title: "Table"
  * Keystroke: –
 
