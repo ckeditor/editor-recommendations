@@ -47,11 +47,15 @@ Example:
 </ol>
 ```
 
+The `<ol>` element MAY have `type` attribute, containing one of the allowed values<sup>[[3](#ref3)]</sup>, to indicate list's type.
+
+The `<ol>` element MAY have `start` attribute<sup>[[4](#ref4)]</sup>, containing valid non-zero integer to indicate list's start value.
+
 {% endcapture %}
 
 {% capture implementation %}
 
-  * <kbd>Tab</kbd> key is generally used to steer focus from and into the editor and overwriting its behavior could be misleading. Therefore the following key bindings MAY be used instead of the <kbd>Tab</kbd> key<sup>[[3](#ref3)]</sup>:
+  * <kbd>Tab</kbd> key is generally used to steer focus from and into the editor and overwriting its behavior could be misleading. Therefore the following key bindings MAY be used instead of the <kbd>Tab</kbd> key<sup>[[5](#ref5)]</sup>:
     * <kbd>Ctrl+M</kbd> for indenting,
     * <kbd>Ctrl+Shift+M</kbd> for outdenting.
 
@@ -67,7 +71,9 @@ Although this feature should be called "Ordered List", for historical reasons us
 
 1. <a id="ref1"></a>[The `<ol>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-ol-element).
 2. <a id="ref2"></a>[The `<li>` element definition in the HTML5 standard](https://www.w3.org/TR/html5/grouping-content.html#the-li-element).
-3. <a id="ref3"></a>[The description of Rich Text Editor use case in <i>WAI-ARIA 1.0 Authoring Practices</i>](https://rawgit.com/w3c/aria-practices/master/aria-practices-DeletedSectionsArchive.html#richtext).
+3. <a id="ref3"></a>[The `type` attribute definition in the HTML5](https://www.w3.org/TR/html5/grouping-content.html#element-attrdef-ol-type).
+4. <a id="ref4"></a>[The `start` attribute definition in the HTML5](https://www.w3.org/TR/html5/grouping-content.html#element-attrdef-ol-start).
+5. <a id="ref5"></a>[The description of Rich Text Editor use case in <i>WAI-ARIA 1.0 Authoring Practices</i>](https://rawgit.com/w3c/aria-practices/master/aria-practices-DeletedSectionsArchive.html#richtext).
 
 {% endcapture %}
 
