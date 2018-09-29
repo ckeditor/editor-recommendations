@@ -1,10 +1,10 @@
 ---
 feature:
   name: "Highlight"
-  status: "Draft"
+  status: "Recommendation"
   discussion: "https://github.com/ckeditor/editor-recommendations/issues/63"
 
-description: Recommendation draft for Highlight feature in WYSIWYG.
+description: Recommendation for Highlight feature in WYSIWYG.
 layout: default
 ---
 
