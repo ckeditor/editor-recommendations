@@ -29,7 +29,7 @@ As a way to mitigate this problem, a set of well-thought "defaults" could be des
 
 Editor developers, on the other hand, have to deal with a variety of possibilities when it comes to defining how features should work. This goes from UI/UX requirements to final markup produced. There are many options for each case and many times the solutions proposed are not optimal.
 
-Our goal is to goal into the feature details and to define a solid, commonly accepted behavior for them.
+Our goal is to go into the feature details and to define a solid, commonly accepted behavior for them.
 
 ## Participating
 
