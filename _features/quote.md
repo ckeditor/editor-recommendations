@@ -32,7 +32,7 @@ The `<figure>` element SHOULD have a `class` attribute which value is set to `qu
 
 The `<blockquote>` element MUST be used to represent the quote itself as it is the standard way to express a quote in HTML<sup>[[2](#ref2)]</sup>.
 
-The `<blockqoute>` element MAY have `cite` attribute<sup>[[3](#ref3)]</sup>, containing a valid URL<sup>[[4](#ref4)]</sup> pointing to the source of citation.
+The `<blockquote>` element MAY have `cite` attribute<sup>[[3](#ref3)]</sup>, containing a valid URL<sup>[[4](#ref4)]</sup> pointing to the source of citation.
 
 The name of the source of citation, if it is present, MUST be represented by the `<cite>` element<sup>[[5](#ref5)]</sup> nested inside `<figcaption>` element<sup>[[6](#ref6)]</sup>. If the name of the source is not present, the `<figcaption>` element MAY be used to provide a caption for the quote.
 
